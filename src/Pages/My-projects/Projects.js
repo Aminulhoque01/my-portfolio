@@ -2,7 +2,7 @@ import React from 'react';
 import learning from '../../assisset/images/banner/l2.jpg'
 import doctor from '../../assisset/images/banner/Doctor.jpg'
 import resale from '../../assisset/images/banner/resale2.jpg'
-import { BsArrowRightShort } from 'react-icons/fa'
+
 const Projects = () => {
     return (
         <div className='bg-neutral '>
@@ -35,7 +35,7 @@ const Projects = () => {
                         <h2 className="card-title">Product-resale</h2>
                         <p>Quickly scan tons of product resale, view vendors, ratings, and buyback prices at any time from the convenience of your phone for free</p>
                         <div className="card-actions">
-                            <button className="btn btn-primary">View Project <BsArrowRightShort></BsArrowRightShort></button>
+                            <button className="btn btn-primary">View Project</button>
                         </div>
                     </div>
                 </div>
