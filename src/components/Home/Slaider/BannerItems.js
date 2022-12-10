@@ -34,7 +34,7 @@ const BannerItems = ({ slide }) => {
 
 
             <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-3/4 w-2/7 ">
-                <button onClick={handlerPdf} className="btn btn-outline btn-warning mr-3">Download Resume</button>
+                <button onClick={handlerPdf} className="btn btn-outline btn-warning mr-3"><a href="https://drive.google.com/file/d/13s69e2udG_YCkm5T2LoFWN3hDUUwUkDr/view" target="_blank">Download Resume</a></button>
 
             </div>
 
