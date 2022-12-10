@@ -5,7 +5,7 @@ import resale from '../../assisset/images/banner/resale2.jpg'
 
 const Projects = () => {
     return (
-        <div className='bg-neutral '>
+        <div className='bg-neutral pb-10'>
             <div>
             <h2 className='text-white text-3xl font-bold text-center py-5'>ABOUT ME</h2>
             <div className='lg:grid grid-cols-3 gap-4 container mx-auto'>

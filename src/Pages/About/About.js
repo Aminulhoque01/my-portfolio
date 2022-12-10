@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ami from '../../assisset/images/banner/ami.jpg'
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
                         <p className="py-6 text-white">I am Aminul haque, a web developer. Developing holds the focal point in my skillset in hand with business development.I understand the importance of innovative websites in today's time and that brings my passion to building cutting-edge and state-of-the-art websites for my clients.
                             I'm a full-stack developer in JavaScript/Node JS/MongoDB technologies. I've 2+ years of experience in front-end development. I can use any JavaScript framework (ReactJS, NextJS, ExpressJS, Redux) at its best. If you need any work related to any JavaScript technology, I would be your best choice. Feel free to contact me and discuss your requirements.
                             Looking for an expert developer with a diversified skill set, then you are at the right place.</p>
-                        <button className="btn btn-primary">Contact me</button>
+                        <button className="btn btn-primary"><Link to='/contact'>Contact me</Link></button>
                     </div>
                 </div>
             </div>
